@@ -3,14 +3,7 @@
 
 var
     Transform = require('stream').Transform,
-    fs = require('graceful-fs'),
-    path = require('path'),
-    util = require('util'),
     gutil = require('gulp-util'),
-    watchify = require('watchify'),
-    browserify = require('browserify'),
-    copy = require('shallow-copy'),
-    gcolors = gutil.colors,
     PluginError = gutil.PluginError;
 
 /**
@@ -51,7 +44,6 @@ StripBlock.prototype._transform = function (srcFile, encoding, done) {
 };
 
 /**
- * Remove references to buffered files.
  * @param {function(Error)} done Callback.
  */
 StripBlock.prototype._flush = function (done) {

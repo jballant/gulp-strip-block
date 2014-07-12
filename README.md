@@ -33,8 +33,14 @@ var gutil = require('gulp-util');
 var stripBlock = require('gulp-strip-block');
 
 gulp.task('javascript', function () {
-    gulp.src('js')
+    gulp.src('/src/js')
         .pipe(gutil.env.type === 'production' ? stripBlock() : gutil.noop())
+        .pipe('/public/js');
 });
 
 ```
+
+Options
+-------
+* startComment: The text inside the /* */ block comment used to mark the beginning of the code block to be removed
+* endComment: The text inside the /* */ used to mark the end of the code block to be removed
