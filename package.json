@@ -1,24 +1,24 @@
 {
-  "name": "gulp-strip-block",
-  "version": "0.0.0",
-  "description": "Gulp plugin to strip blocks of code that's only intended for development purposes",
-  "main": "index.js",
-  "dependencies": {
-    "gulp-util": "~2.2.10"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://git@github.com/jballant/gulp-strip-block.git"
-  },
-  "homepage": "https://github.com/jballant/gulp-strip-block",
-  "keywords": [
-    "gulp",
-    "gulpplugin",
-  ],
-  "author": {
-    "name": "James Ballantine",
-    "email": "james@1stdibs.com",
-    "url": "http://www.1stdibs.com"
-  },
-  "license": "MIT"
+    "name": "gulp-strip-block",
+    "version": "0.0.0",
+    "description": "Gulp plugin to strip blocks of code that's only intended for development purposes",
+    "main": "index.js",
+    "dependencies": {
+        "gulp-util": "~2.2.10"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://git@github.com/jballant/gulp-strip-block.git"
+    },
+    "homepage": "https://github.com/jballant/gulp-strip-block",
+    "keywords": [
+        "gulp",
+        "gulpplugin"
+    ],
+    "author": {
+        "name": "James Ballantine",
+        "email": "james@1stdibs.com",
+        "url": "http://www.1stdibs.com"
+    },
+    "license": "MIT"
 }
